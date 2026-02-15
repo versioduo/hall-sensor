@@ -6,11 +6,88 @@
 	(paper "A4")
 	(title_block
 		(title "Hall Sensor")
-		(date "2024-02-02")
+		(date "2026-02-15")
+		(rev "2024-02-02")
 		(company "Versio Duo")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "V2_Artwork:V2-logo"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "ICON"
+				(at -3.302 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "V2-logo"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "V2_Artwork:Logo_Small"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "V2-logo_1_0"
+				(polyline
+					(pts
+						(xy -3.302 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "V2-logo_1_1"
+				(text "V2"
+					(at -0.508 -0.254 0)
+					(effects
+						(font
+							(size 3 3)
+							(thickness 0.375)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Capacitor:0603_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -22,7 +99,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.254 1.778 0)
+				(at 1.778 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,8 +107,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "0u1"
+				(at 1.778 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,8 +116,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+				(at 0 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +135,47 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "810-CGA3E2X7R1H104MA"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -84,7 +201,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "0603_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -110,7 +227,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "0603_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -150,92 +267,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Artwork:V2-logo"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "ICON"
-				(at -3.302 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "V2-logo"
-				(at -4.572 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "V2_Artwork:Logo_Small"
-				(at 0 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "V2-logo_1_0"
-				(polyline
-					(pts
-						(xy -3.302 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "V2-logo_1_1"
-				(text "V2"
-					(at -0.508 -0.254 0)
-					(effects
-						(font
-							(size 3 3)
-							(thickness 0.375)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "V2_Connector_Audio:SJ2-35464B-SMT-TR"
 			(pin_names
 				(offset 0.635)
@@ -244,30 +275,29 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.1854 15.2654 0)
+				(at -10.1854 17.8054 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "SJ2-35464B-SMT-TR"
-				(at -10.414 -17.78 0)
+				(at -10.16 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Connector_Audio:CUI_SJ2-35464B-SMT-TR"
-				(at -12.192 -20.574 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -288,6 +318,36 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "490-SJ2-35464BSMT-TR"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "SJ2-35464B-SMT-TR"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Same Sky"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -643,7 +703,7 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "FID"
-				(at 0 5.08 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -651,15 +711,16 @@
 				)
 			)
 			(property "Value" "Fiducial_Paste"
-				(at 0 3.175 0)
+				(at 0.254 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-				(at 0 -5.08 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -677,16 +738,7 @@
 				)
 			)
 			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -742,7 +794,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_2.5mm"
+			(property "Value" "2.5mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -751,7 +803,7 @@
 				)
 			)
 			(property "Footprint" "V2_Mechanical:MountingHole_2.5mm"
-				(at 0 -5.08 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -769,16 +821,7 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -827,7 +870,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.334 12.446 0)
+				(at -5.08 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -836,7 +879,7 @@
 				)
 			)
 			(property "Value" "A31010SEHALT-10"
-				(at -7.874 -13.716 0)
+				(at -5.08 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -845,12 +888,11 @@
 				)
 			)
 			(property "Footprint" "V2_Sensor_Hall:A31010SEHALT10"
-				(at -16.002 -17.78 0)
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -871,6 +913,36 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Allegro MicroSystems"
+				(at 0 -21.59 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "A31010SEHALT-10"
+				(at 0 -24.13 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "250-A31010SEHALT-10"
+				(at 0 -26.67 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -982,7 +1054,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "V2_power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -995,7 +1067,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1004,7 +1076,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 3.556 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1029,8 +1101,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1107,7 +1179,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "V2_power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1120,7 +1192,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1129,11 +1201,12 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1154,8 +1227,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1208,7 +1281,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "V2_power:PWR_FLAG"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1221,7 +1294,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1230,7 +1303,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1246,7 +1319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1256,7 +1329,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1275,7 +1348,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -1296,7 +1369,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1309,18 +1382,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 205.74 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1065593d-4ad8-49aa-8353-52b1bccd0b63")
-	)
-	(junction
-		(at 205.74 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b881c42b-1a68-4f69-b7cb-36d31a93d745")
 	)
 	(junction
 		(at 172.72 99.06)
@@ -1388,7 +1449,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2.5mm")
-		(at 121.92 135.89 0)
+		(at 229.87 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1397,7 +1458,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6da915-635a-40c6-8a69-d42cdc51a796")
 		(property "Reference" "H1"
-			(at 124.46 134.6199 0)
+			(at 232.41 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,8 +1466,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_2.5mm"
-			(at 124.46 137.1599 0)
+		(property "Value" "2.5mm"
+			(at 232.41 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1476,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2.5mm"
-			(at 121.92 140.97 0)
+			(at 229.87 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 135.89 0)
+			(at 229.87 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,16 +1494,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 121.92 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 121.92 135.89 0)
+			(at 229.87 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 205.74 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1469,7 +1521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259dbbc9-9bbc-410f-b835-b681f3fee7b6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 205.74 114.3 0)
 			(effects
 				(font
@@ -1484,6 +1536,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1504,7 +1557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 205.74 107.95 0)
 			(effects
 				(font
@@ -1519,14 +1572,14 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "V2_power:+3V3")
 		(at 172.72 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1535,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b361528-a8a4-4f88-b240-c0d383c3173a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -1571,7 +1624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 172.72 99.06 0)
 			(effects
 				(font
@@ -1586,14 +1639,14 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "V2_power:+3V3")
 		(at 205.74 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1602,7 +1655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32b56a39-2be7-4fab-8bc3-e7a430c03a10")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -1637,7 +1690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 205.74 102.87 0)
 			(effects
 				(font
@@ -1652,14 +1705,14 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "V2_power:+3V3")
 		(at 172.72 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1668,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36980c56-dca8-46d0-ae24-93bfadbe8ee4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -1704,7 +1757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -1719,14 +1772,14 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "V2_power:+3V3")
 		(at 138.43 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1735,7 +1788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c00e170-0c9e-4cfc-93eb-d2dae512d436")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -1771,7 +1824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 138.43 106.68 0)
 			(effects
 				(font
@@ -1786,7 +1839,7 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -1849,6 +1902,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Allegro MicroSystems"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "A31010SEHALT-10"
+			(at 177.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "250-A31010SEHALT-10"
+			(at 177.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "73c21770-ea08-4f75-ad2a-f6e3f72bafc5")
 		)
@@ -1874,17 +1954,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 205.74 107.95 90)
+		(lib_id "V2_power:PWR_FLAG")
+		(at 158.75 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "698582ab-fa93-416c-9367-4ad0ef325959")
-		(property "Reference" "#FLG02"
-			(at 203.835 107.95 0)
+		(uuid "57d9d846-d9b3-459a-ac9d-360c1cd45578")
+		(property "Reference" "#FLG101"
+			(at 158.75 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,82 +1972,15 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 201.93 107.9499 90)
+			(at 149.606 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 205.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3956be6e-bd49-4d1c-ba78-632a32aef22d")
-		)
-		(instances
-			(project "hall-sensor"
-				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 158.75 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "75376874-5c1a-4545-8c23-a7fa4e44a9eb")
-		(property "Reference" "FID1"
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 156.21 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 158.75 140.97 0)
+			(at 158.75 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1989,139 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 135.89 0)
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a797553-1144-4b04-8010-b8502c193487")
+		)
+		(instances
+			(project "hall-sensor"
+				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
+					(reference "#FLG101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:PWR_FLAG")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dffba3e-3963-450e-aab8-63a58afe754e")
+		(property "Reference" "#FLG102"
+			(at 158.75 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.606 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6f45bc7-b2a7-49b0-8d4d-fd4779e9df24")
+		)
+		(instances
+			(project "hall-sensor"
+				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
+					(reference "#FLG102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_Mechanical:Fiducial_Paste")
+		(at 266.7 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "75376874-5c1a-4545-8c23-a7fa4e44a9eb")
+		(property "Reference" "FID1"
+			(at 270.764 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_Paste"
+			(at 264.16 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
+			(at 266.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,16 +2130,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 158.75 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 158.75 135.89 0)
+			(at 266.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2149,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2.5mm")
-		(at 121.92 142.24 0)
+		(at 229.87 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2023,7 +2158,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b14c8c3-0a1f-4315-99bc-70142cfa9ac0")
 		(property "Reference" "H2"
-			(at 124.46 140.9699 0)
+			(at 232.41 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,8 +2166,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_2.5mm"
-			(at 124.46 143.5099 0)
+		(property "Value" "2.5mm"
+			(at 232.41 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2176,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2.5mm"
-			(at 121.92 147.32 0)
+			(at 229.87 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 142.24 0)
+			(at 229.87 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,16 +2194,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 121.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 121.92 142.24 0)
+			(at 229.87 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,6 +2206,73 @@
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:+3V3")
+		(at 158.75 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e25c78f-aa52-430d-8a5f-0ea667f12777")
+		(property "Reference" "#PWR101"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 162.56 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef73a523-28ce-4bf1-9ebb-055b0ceb78f8")
+		)
+		(instances
+			(project "hall-sensor"
+				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -2131,13 +2324,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SJ2-35464B-SMT-TR"
+		(property "Description" ""
 			(at 117.602 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "490-SJ2-35464BSMT-TR"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SJ2-35464B-SMT-TR"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2166,7 +2386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 205.74 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2193,8 +2413,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 205.74 105.41 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 205.74 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 205.74 105.41 0)
 			(effects
 				(font
@@ -2212,7 +2432,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 205.74 105.41 0)
+			(at 205.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,15 +2547,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 209.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
@@ -2310,7 +2557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 172.72 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2318,7 +2565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2983409-8192-4bfb-bb30-a2ff9f2129be")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 166.37 114.3 0)
 			(effects
 				(font
@@ -2334,6 +2581,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2354,7 +2602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 172.72 114.3 0)
 			(effects
 				(font
@@ -2369,14 +2617,14 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 138.43 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2385,7 +2633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d782e901-9eec-4045-b212-20a0200cb9f8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -2401,6 +2649,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2421,7 +2670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -2436,24 +2685,24 @@
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 205.74 102.87 90)
+		(lib_id "V2_power:GND")
+		(at 158.75 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecb08d5d-40d4-412f-97c5-0ae89f96311e")
-		(property "Reference" "#FLG01"
-			(at 203.835 102.87 0)
+		(uuid "faffddb4-6e22-41bb-8b04-ddb371d793bb")
+		(property "Reference" "#PWR102"
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,17 +2710,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 201.93 102.8699 90)
+		(property "Value" "GND"
+			(at 162.56 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 102.87 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,8 +2729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 102.87 0)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,8 +2738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 205.74 102.87 0)
+		(property "Description" ""
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,12 +2748,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0bf23a6-5278-4134-b548-194e37aa1715")
+			(uuid "d0f4503c-595d-4e03-8543-8c52c7ddd2c4")
 		)
 		(instances
 			(project "hall-sensor"
 				(path "/d0d4d18f-3a74-4820-8735-3f65014fe4d9"
-					(reference "#FLG01")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -2515,4 +2765,22 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "V2_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
+				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
+				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
+				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
+				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
+				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
+				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
+				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
+				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
+				iUQT9BXkf9EiYDuODpB6gKkC|
+			)
+			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+		)
+	)
 )
