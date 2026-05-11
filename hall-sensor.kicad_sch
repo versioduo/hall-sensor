@@ -87,7 +87,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Capacitor:0603_0u1"
+		(symbol "V2_Capacitor:1608_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -116,7 +116,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
 				(at 0 -17.018 0)
 				(effects
 					(font
@@ -201,7 +201,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603_0u1_0_1"
+			(symbol "1608_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -227,7 +227,7 @@
 					)
 				)
 			)
-			(symbol "0603_0u1_1_1"
+			(symbol "1608_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -2386,7 +2386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Capacitor:0603_0u1")
+		(lib_id "V2_Capacitor:1608_0u1")
 		(at 205.74 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 205.74 122.428 0)
 			(effects
 				(font
